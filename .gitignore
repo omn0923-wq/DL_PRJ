@@ -1,0 +1,26 @@
+# 가상환경 (용량이 크므로 절대 올리지 않기)
+.venv/
+venv/
+env/
+
+# 파이썬 캐시
+__pycache__/
+*.py[cod]
+
+# 주피터
+.ipynb_checkpoints/
+
+# Streamlit 비밀 설정
+.streamlit/secrets.toml
+
+# 압축 파일
+*.zip
+
+# 편집기 / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 주의 : model_weights.npz, meta.json, daily_dataset.csv, test_pred.csv 는
+#        앱 실행에 필요하므로 제외하지 않는다. (*.npz, *.csv 패턴을 추가하지 말 것)
